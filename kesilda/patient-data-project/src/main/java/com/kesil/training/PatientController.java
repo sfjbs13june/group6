@@ -12,7 +12,7 @@ public class PatientController {
 
     private static HashMap<Integer, Patient> patientList  = new HashMap<>();
     /**
-     * Preparing Default Product List as Map
+     * Preparing Default Patient List as Map
      */
     static {
         Patient p1 = new Patient();
