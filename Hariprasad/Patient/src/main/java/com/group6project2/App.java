@@ -1,4 +1,4 @@
-package com.group6hari;
+package com.group6project2;
 
 /**
  * Hello world!
