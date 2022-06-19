@@ -1,4 +1,4 @@
-package com.eshika.calculator.data;
+package com.eshika.training;
 
 import junit.framework.Test;
 import junit.framework.TestCase;
