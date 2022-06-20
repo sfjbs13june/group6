@@ -1,35 +1,42 @@
 package com.group6project2.Controller;
 
+import java.util.Scanner;
+
 import com.group6project2.Data.Patient;
 import org.springframework.http.HttpHeaders;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
-
 import java.time.ZonedDateTime;
 import java.util.List;
 
 @RestController
 public class AppController {
-    @GetMapping("/get")
-    public String getDetail() {
-        return "get patient ";
+    public static void main(String [] args) {
+        Scanner port = new Scanner(System.in);
+        System.out.println("Enter tombcat environment to run ex: dev , test, prod  ");
+        String server = port.nextLine();
     }
 
-    @PostMapping("/post")
-    Patient postEmployee(@RequestBody Patient newPatient) {
+        @PostMapping("/addpatient")
+        Patient postPatient(@RequestBody Patient newPatient) {
         return newPatient;
     }
 
-    @PutMapping("/put/{name}")
-    String putEmployee(@RequestBody Patient newPatient, @PathVariable String name) {
-        return newPatient.toString() + ":Updated with name:" + name;
-    }
+        @GetMapping("/getdetails")
+        public String getDetail() {
+            return "getting  patient Details";
+        }
 
-    @DeleteMapping("/delete/{name}")
-    String deletePatient(@PathVariable String name) {
-        return name;
-    }
 
-}
+        @PutMapping("/updatedetails/{pid}")
+        String putPatient(@RequestBody Patient newPatient, @PathVariable String pid) {
+            return newPatient.toString() + ":Updated with name:" + pid;
+        }
+
+        @DeleteMapping("/delete/{name}")
+        String deletePatient(@PathVariable String name) {
+            return name;
+        }
+    }
