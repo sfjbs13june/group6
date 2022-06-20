@@ -13,17 +13,17 @@ import java.util.List;
 
 @RestController
 public class AppController {
-    @GetMapping("/get")
+    @GetMapping("/getdetails")
     public String getDetail() {
-        return "get patient ";
+        return "getting  patient Details";
     }
 
-    @PostMapping("/post")
+    @PostMapping("/addpatient")
     Patient postPatient(@RequestBody Patient newPatient) {
         return newPatient;
     }
 
-    @PutMapping("/put/{name}")
+    @PutMapping("/updatedetails/{pid}")
     String putPatient(@RequestBody Patient newPatient, @PathVariable String name) {
         return newPatient.toString() + ":Updated with name:" + name;
     }
