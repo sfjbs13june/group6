@@ -1,0 +1,5 @@
+com\group6hari20\Data\Hospital.class
+com\group6hari20\Data\Patient.class
+com\group6hari20\Config\SpringSecurityBasicConfig.class
+com\group6hari20\Controller\AppControllerPatient.class
+com\group6hari20\App.class
