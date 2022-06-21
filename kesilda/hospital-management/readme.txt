@@ -47,3 +47,5 @@ Sample Request for Post
 8.  Get URL : http://localhost:8080/getAllHospital
 
 9.  Delete URL : http://localhost:8080/removeHospital/3
+
+10.  docker run -p 8082:8080 kesilda017/hospital-management:1.0.0

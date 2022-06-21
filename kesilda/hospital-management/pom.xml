@@ -9,13 +9,15 @@
 <groupId>com.kesil.training.app</groupId>
 <artifactId>hospital-management</artifactId>
 <packaging>jar</packaging>
-<version>1.0-SNAPSHOT</version>
-<name>patient-data-project</name>
+<version>1.0.0</version>
+<name>hospital-management</name>
 <url>http://maven.apache.org</url>
-<properties>
-  <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-  <java.version>11</java.version>
-</properties>
+  <properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <java.version>11</java.version>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <docker.image.prefix>kesilda017</docker.image.prefix>
+  </properties>
 <dependencies>
   <dependency>
     <groupId>junit</groupId>
@@ -51,6 +53,18 @@
     <plugin>
       <groupId>org.springframework.boot</groupId>
       <artifactId>spring-boot-maven-plugin</artifactId>
+    </plugin>
+    <plugin>
+      <groupId>com.spotify</groupId>
+      <artifactId>dockerfile-maven-plugin</artifactId>
+      <version>1.4.6</version>
+      <configuration>
+        <repository>${docker.image.prefix}/${project.artifactId}</repository>
+        <buildArgs>
+          <JAR_FILE>target/${project.build.finalName}.jar</JAR_FILE>
+        </buildArgs>
+        <tag>${project.version}</tag>
+      </configuration>
     </plugin>
   </plugins>
 </build>
