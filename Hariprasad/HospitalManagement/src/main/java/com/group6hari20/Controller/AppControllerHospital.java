@@ -27,9 +27,9 @@ public class AppControllerHospital {
         return newHospital.toString() + ":Updated with hospital name:" + name;
     }
 
-    @DeleteMapping("/delete/{name}")
-    String deletePatient(@PathVariable String name) {
-        return name;
+    @DeleteMapping("/delete/hospital/{hname}")
+    String deleteHospital(@PathVariable String hname) {
+        return hname;
     }
 }
 

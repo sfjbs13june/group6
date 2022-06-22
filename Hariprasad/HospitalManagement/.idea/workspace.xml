@@ -4,31 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="de7139ca-8a46-4534-b6c2-3da4f13cbc6b" name="Changes" comment="HospitalManagement-rebuild">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_6_7.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HospitalManagement.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/group6hari20/Controller/AppControllerHospital.java" afterDir="false" />
+    <list default="true" id="de7139ca-8a46-4534-b6c2-3da4f13cbc6b" name="Changes" comment="HospitalManagement-rebuild1">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hs_err_pid2712.log" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/group6hari20/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/group6hari20/AppTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/HospitalManagement-1.0-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/HospitalManagement-1.0-SNAPSHOT.jar.original" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/group6hari20/App.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/group6hari20/Config/SpringSecurityBasicConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/group6hari20/Controller/AppControllerPatient.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/group6hari20/Data/Hospital.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/group6hari20/Data/Patient.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.group6hari20.AppTest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.group6hari20.AppTest.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/group6hari20/AppTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/group6hari20/Controller/AppControllerHospital.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/group6hari20/Controller/AppControllerHospital.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -97,6 +76,14 @@
       <option name="presentableId" value="Default" />
       <updated>1655713940653</updated>
     </task>
+    <task id="LOCAL-00001" summary="HospitalManagement-rebuild1">
+      <created>1655878058982</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1655878058982</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -112,6 +99,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="HospitalManagement-rebuild" />
-    <option name="LAST_COMMIT_MESSAGE" value="HospitalManagement-rebuild" />
+    <MESSAGE value="HospitalManagement-rebuild1" />
+    <option name="LAST_COMMIT_MESSAGE" value="HospitalManagement-rebuild1" />
   </component>
 </project>
