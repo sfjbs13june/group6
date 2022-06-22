@@ -4,41 +4,31 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="de7139ca-8a46-4534-b6c2-3da4f13cbc6b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hs_err_pid2712.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/group6hari20/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/group6hari20/Config/SpringSecurityBasicConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/group6hari20/Controller/AppControllerPatient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/group6hari20/Data/Hospital.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/group6hari20/Data/Patient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/group6hari20/AppTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/HospitalManagement-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/HospitalManagement-1.0-SNAPSHOT.jar.original" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/group6hari20/App.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/group6hari20/Config/SpringSecurityBasicConfig.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/group6hari20/Controller/AppControllerPatient.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/group6hari20/Data/Hospital.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/group6hari20/Data/Patient.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.group6hari20.AppTest.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/com.group6hari20.AppTest.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/com/group6hari20/AppTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../eshika/patient-project/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../eshika/patient-project/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../eshika/patient-project/src/main/java/com/eshika/training/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../eshika/patient-project/src/main/java/com/eshika/training/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../eshika/patient-project/src/main/java/com/eshika/training/controller/AppController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../eshika/patient-project/src/main/java/com/eshika/training/controller/AppController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../eshika/patient-project/src/main/java/com/eshika/training/data/patient.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../eshika/patient-project/src/main/java/com/eshika/training/data/patient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../eshika/patient-project/src/test/java/com/eshika/training/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../eshika/patient-project/src/test/java/com/eshika/training/AppTest.java" afterDir="false" />
+    <list default="true" id="de7139ca-8a46-4534-b6c2-3da4f13cbc6b" name="Changes" comment="HospitalManagement-rebuild">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_6_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HospitalManagement.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/group6hari20/Controller/AppControllerHospital.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hs_err_pid2712.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/group6hari20/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/group6hari20/AppTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/HospitalManagement-1.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/HospitalManagement-1.0-SNAPSHOT.jar.original" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/group6hari20/App.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/group6hari20/Config/SpringSecurityBasicConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/group6hari20/Controller/AppControllerPatient.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/group6hari20/Data/Hospital.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/group6hari20/Data/Patient.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.group6hari20.AppTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.group6hari20.AppTest.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/group6hari20/AppTest.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,6 +44,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+    <option name="SET_USER_NAME_GLOBALLY" value="false" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -74,8 +65,8 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Patientwithsecurity" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.6183908" />
     <property name="settings.editor.selected.configurable" value="project.propCompiler" />
@@ -118,5 +109,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="HospitalManagement-rebuild" />
+    <option name="LAST_COMMIT_MESSAGE" value="HospitalManagement-rebuild" />
   </component>
 </project>
