@@ -1,0 +1,6 @@
+version: '3.2'
+services:
+  sprigapp:
+    image: kesilda017/hospital-management:1.0.0
+    ports:
+      - "8082:8080"
