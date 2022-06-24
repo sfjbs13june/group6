@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3d43107a-93db-4225-997b-4fc4219a6b37" name="Changes" comment="" />
+    <list default="true" id="3d43107a-93db-4225-997b-4fc4219a6b37" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../hospital-management-mongo/Dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hospital-management-mongo/docker-compose.yml" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -30,13 +33,18 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../hospital-management-mongo" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../.." />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\cygwin64\home\sfjbs\group6\kesilda\hospital-management-mongo\src\main\java\com\kesil\training\app" />
       <recent name="C:\cygwin64\home\sfjbs\group6\kesilda\hospital-management" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.kesil.training.app" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
