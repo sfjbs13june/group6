@@ -1,6 +1,6 @@
 version: '3.2'
 services:
-  sprigapp:
-    image: hari007/spring-boot-app:0.0.1
+  springapp:
+    image: falcon007/hospital-management-1.0-SNAPSHOT.jar
     ports:
-      - "8082:8080"
+      - "8080:8080"
